@@ -3,6 +3,10 @@ h1 {
     font-size: 200%
 }
 
+h2 {
+    color: blue;
+    font-size: 100%
+}
 p {
     font-family: fantasy;
     text-indent: 20px;
