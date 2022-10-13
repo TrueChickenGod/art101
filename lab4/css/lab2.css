@@ -31,5 +31,21 @@ div {
     border-radius: 25px;
     border: 2px solid #274e13;
     height: 200px;
-    width: 200px; 
+    width: 200px;
+}
+
+div2 {
+    background-color: #d9ead3;
+    border-radius: 25px;
+    border: 2px solid #274e13;
+    height: 200px;
+    width: 200px;
+}
+
+div3 {
+    background-color: #d9ead3;
+    border-radius: 25px;
+    border: 2px solid #274e13;
+    height: 200px;
+    width: 200px;
 }
