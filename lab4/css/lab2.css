@@ -1,0 +1,35 @@
+h1 {
+    color: #38761d;
+    font-size: 200%;
+    font-family: serif;
+}
+
+h2 {
+    color: #38761d;
+    font-size: 200%;
+    font-family: serif;
+}
+
+h3 {
+    color: #38761d;
+    font-size: 200%;
+    font-family: serif;
+}
+
+p {
+    color: #274e13;
+    font-size: 100%;
+    font-family: serif;
+}
+
+body {
+    background-color: #b6d7a8;
+}
+
+div {
+    background-color: #d9ead3;
+    border-radius: 25px;
+    border: 2px solid #274e13;
+    height: 200px;
+    width: 200px; 
+}
