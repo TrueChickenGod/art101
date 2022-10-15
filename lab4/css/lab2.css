@@ -38,3 +38,7 @@ ol {
     font-size: 100%;
     font-family: serif;
 }
+
+.box {
+    inline-size: 100px;
+}
