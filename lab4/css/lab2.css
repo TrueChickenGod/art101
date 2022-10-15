@@ -5,7 +5,7 @@ body {
 
 div {
     background-color: #dff0ff;
-    border-radius: 50px;
+    border-radius: 15px;
     border: 2px solid #114f87;
 }
 
@@ -40,5 +40,5 @@ ol {
 }
 
 .box {
-    inline-size: 200px;
+    inline-size: 1050px;
 }
