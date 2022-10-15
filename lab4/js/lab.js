@@ -1,15 +1,18 @@
 /**
- * Attempting to make a list/pseudocoding for JS but I am quite dumb so.... (use period)
+ * Summary. (use period)
  *
- /* Search on wikipedia. (use period)
- /* When user searches wikipedia search for wikipedia. (use period)
- /* Present wikipedia options to user. (use period)
- /* Wait for user input. (use period)
+ * Description. (use period)
  *
- * @link   https://truechickengod.github.io/art101/lab4/
- * @file   This files defines the art101 class with lab4.
- * @author RamolaDatta.
- * @since  10.12.22
+ * @link   URL
+ * @file   This files defines the MyClass class.
+ * @author AuthorName.
+ * @since  x.x.x
  */
 
 /** jshint {inline configuration here} */
+
+
+// Open default browser
+// When user searches 'wikipedia' search for 'wikipedi'
+// Present wikipedia options to user
+// Wait for user input
