@@ -7,8 +7,7 @@ div {
     background-color: #dff0ff;
     border-radius: 20px;
     border: 2px solid #114f87;
-    max-width: 2000px;
-    min-width: 400px;
+    min-width: 1050px;
 }
 
 h1 {
