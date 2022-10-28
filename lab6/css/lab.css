@@ -1,0 +1,32 @@
+body {
+  background-color: #dd7c1a;
+
+}
+
+#information {
+  background-color: #fff0e1;
+  border-radius: 20px;
+  border: 2px solid #8d4a06;
+
+}
+
+h1 {
+  color: #dd7c1a;
+  font-size: 150px;
+  font-family: serif;
+
+}
+
+h2 {
+  color: #dd7c1a;
+  font-size: 100px;
+  font-family: serif;
+
+}
+
+p {
+  color: #442303;
+  font-size: 50px;
+  font-family: serif;
+
+}
