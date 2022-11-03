@@ -23,6 +23,5 @@ var myMainRide = {
 
 document.writeIn("Some different ways I get around are:", myTransport, "</br>");
 
-document.writeIn("The main way I get around is: <pre>",
-      JSON.stringify(myMainRide, null, '\t'), "</pre>");
-      
+document.writeln("My Main Ride: <pre>",
+    JSON.stringify(myMainRide, null, '\t'), "</pre>");
