@@ -13,9 +13,6 @@ var myMainRide = {
   model: "Leaf",
   year: "2019",
   color: "white",
-  age: function() {
-      return 2022 - age;
-    }
  }
 
 //output
