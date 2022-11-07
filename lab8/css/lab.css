@@ -1,0 +1,21 @@
+body {
+    background-color: #fff6c3;
+}
+
+div {
+    background-color: #fffceb;
+    border-radius: 20px;
+    border: 2px solid #8a7600;
+}
+
+h1 {
+    color: #e3ce57;
+    font-size: 50px;
+    font-family: serif;
+}
+
+p {
+    color: #87771c;
+    font-size: 20px;
+    font-family: sans-serif;
+}
