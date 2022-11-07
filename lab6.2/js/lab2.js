@@ -1,24 +1,27 @@
 /*
- * Author: Ramola Datta <rsdatta@ucsc.edu>
- * Created: Nov. 1, 2022
- * Lab 6 Attempt 2: Arrays and Objects
-*/
+ * Author(s): Kiyo Leong <maaleong@ucsc.edu>
+               Ramola Datta <rsdatta@ucsc.edu>
+ * Created: Nov. 6, 2022
+ * Lab 6 Resubmit
+ */
 
-//All variables declared in Task 1
 
-var myTransport = ["Walking", "Bus Ride", "Biking", "Nissan Leaf"];
+//this is an array
+ var myTransport = ["Walking", "Bus Ride", "Biking", "Nissan Leaf", "Honda"];
 
-var myMainRide = {
-  make: "Nissan",
-  model: "Leaf",
-  year: "2019",
-  color: "white",
+//this is an object
+ var myMainRide = {
+    color: "white",
+    make: "Nissan",
+    model: "Leaf",
+    year: 2019,
+    age: function () {
+        return 2022 - this.year;
+    }
  }
 
-//output
-//remember its: 'document.writeIn("What's going to be written", what you're using/showing off, "</br>")
+//neatly printing an array vs an object
+ document.writeIn("Ways we get around: " + myTransport +  "<br>");
 
-document.writeIn("Some different ways I get around are:", myTransport, "</br>");
-
-document.writeln("My Main Ride: <pre>",
+ document.writeln("My Main Ride: <pre>",
     JSON.stringify(myMainRide, null, '\t'), "</pre>");
