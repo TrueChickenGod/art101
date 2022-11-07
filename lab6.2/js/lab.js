@@ -24,4 +24,4 @@
  document.writeIn("Ways we get around: " + myTransport +  "<br>");
 
  document.writeln("My Main Ride: <pre>")
-    JSON.stringify(myMainRide, null, '\t'), "</pre>");
+    JSON.stringify(myMainRide, null, '\t', "</pre>");
