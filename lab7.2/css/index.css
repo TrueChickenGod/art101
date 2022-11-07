@@ -1,0 +1,27 @@
+body {
+    background-color: #3fcbad;
+}
+
+div {
+    background-color: #e2fff9;
+    border-radius: 20px;
+    border: 2px solid #09745c;
+}
+
+h1 {
+    color: #009C7A;
+    font-size: 50px;
+    font-family: serif;
+}
+
+h2 {
+    color: #009C7A;
+    font-size: 40px;
+    font-family: serif;
+}
+
+p {
+    color: #02271f;
+    font-size: 15px;
+    font-family: serif;
+}
