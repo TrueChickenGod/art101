@@ -21,7 +21,7 @@
  }
 
 //neatly printing an array vs an object
- document.writeIn("Ways we get around: " + myTransport +  "<br>");
+ document.writeIn("Getting around: " + myTransport + "<br>");
 
- document.writeln("My Main Ride: <pre>", 
+ document.writeIn("My Main Ride: <pre>",
     JSON.stringify(myMainRide, null, '\t'), "</pre>");
