@@ -5,7 +5,7 @@
  * Lab 9: JavaScript for the Web
  */
 
-var outputEl = getElementByClassName("div");
+var outputEl = getElementById("output");
 
 var new1El = document.createElement("p");
     new1El.innerHTML = "Random";
