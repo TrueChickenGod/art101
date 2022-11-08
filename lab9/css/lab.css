@@ -1,21 +1,21 @@
 body {
-    background-color: #fff6c3;
+    background-color: #fa98ba;
 }
 
 div {
-    background-color: #fffceb;
+    background-color: #ffecf3;
     border-radius: 20px;
-    border: 2px solid #8a7600;
+    border: 2px solid #8d0938;
 }
 
 h1 {
-    color: #e3ce57;
+    color: #d81f60;
     font-size: 50px;
     font-family: serif;
 }
 
 p {
-    color: #87771c;
+    color: #2e0312;
     font-size: 20px;
     font-family: sans-serif;
 }
