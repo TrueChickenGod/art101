@@ -7,10 +7,10 @@
 
 var outputEl = document.getElementById("output");
 
-var new1El = document.createElement("p");
+var new1El = document.createElement("writing");
     new1El.innerHTML = "Random";
 
-var new2El = document.createElement("p");
+var new2El = document.createElement("writing");
     new2El.innerHTML = "Again";
 
 //adding new DOM elements?
