@@ -7,11 +7,9 @@
 
 var outputEl = document.getElementById("output");
 
-var new1El = document.createElement("writing");
-    new1El.innerHTML = "Random";
+var new1El = document.createElement("p").innerHTML = "Random";
 
-var new2El = document.createElement("writing");
-    new2El.innerHTML = "Again";
+var new2El = document.createElement("p").innerHTML = "Again";
 
 //adding new DOM elements?
 
