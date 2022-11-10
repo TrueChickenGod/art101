@@ -15,7 +15,5 @@ var new2El = document.createElement("p");
 
 //adding new DOM elements?
 
-outputEl.appendChild(new1El);
 
 outputEl.appendChild(new2El);
- 
