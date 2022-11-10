@@ -10,13 +10,11 @@ var outputEl = document.getElementById("output");
 var new1El = document.createElement("p");
     new1El.innerHTML = "Random";
 
-//new DOM elements?
-
-outputEl.appendChild(new1El);
-
 var new2El = document.createElement("p");
     new2El.innerHTML = "Again";
 
-//new DOM elements?
+//adding new DOM elements?
+
+outputEl.appendChild(new1El);
 
 outputEl.appendChild(new2El);
