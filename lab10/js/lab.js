@@ -7,6 +7,8 @@
 
 //nameSort function from Lab 7
 
+var button = document.getElementById("output");
+    buttonEl.addEventListener('click',
 function nameSort() {
     var userName = window.prompt("May I steal your username for a moment?");
     console.log("userName =", userName);
@@ -21,16 +23,12 @@ function nameSort() {
     console.log("nameSorted =", nameSorted);
 
     return nameSorted;
-}
-
+});
 //replacing div output with results (?)
-var buttonEl = document.getElementById("theButton");
 //we don't need to add a sperate function here because it calls to a function within the statement anyway(?)
 //otherwise above we would have had to put: function alertClick() { alert("Click again!"); } and take out the function part in the line of code below
-
+var button   = document.getElementById("theButton");
     buttonEl.addEventListener('click', function() {
-        alert("Click again!");
+        inputValue = document.getElementById('user-name').value;
+        console.log("Input your username:", inputValue);
     });
-
-var new1El = document.createElement("output");
-    new1El.innerHTML = "nameSorted";
