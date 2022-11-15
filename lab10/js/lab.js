@@ -28,7 +28,7 @@ function nameSort() {
 //we don't need to add a sperate function here because it calls to a function within the statement anyway(?)
 //otherwise above we would have had to put: function alertClick() { alert("Click again!"); } and take out the function part in the line of code below
 var button   = document.getElementById("theButton");
-    buttonEl.addEventListener('click', function() {
+    buttonEl.addEventListener('click', nameSort() {
         inputValue = document.getElementById('user-name').value;
         console.log("Input your username:", inputValue);
     });
