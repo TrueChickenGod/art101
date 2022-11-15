@@ -22,3 +22,9 @@ function nameSort() {
 
     return nameSorted;
 }
+
+//replacing div output with results (?)
+var outputEl = document.getElementById("output");
+
+var new1El = document.createElement("input");
+    new1El.innerHTML = "nameSorteds";
