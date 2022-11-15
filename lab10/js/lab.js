@@ -32,5 +32,5 @@ var buttonEl = document.getElementById("theButton");
         alert("Click again!");
     });
 
-var new1El = document.createElement("input");
-    new1El.innerHTML = "nameSorteds";
+var new1El = document.createElement("output");
+    new1El.innerHTML = "nameSorted";
