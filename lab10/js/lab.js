@@ -24,7 +24,13 @@ function nameSort() {
 }
 
 //replacing div output with results (?)
-var outputEl = document.getElementById("output");
+var buttonEl = document.getElementById("theButton");
+//we don't need to add a sperate function here because it calls to a function within the statement anyway(?)
+//otherwise above we would have had to put: function alertClick() { alert("Click again!"); } and take out the function part in the line of code below
+
+    buttonEl.addEventListener('click', function() {
+        alert("Click again!");
+    });
 
 var new1El = document.createElement("input");
     new1El.innerHTML = "nameSorteds";
