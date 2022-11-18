@@ -7,8 +7,11 @@
 
 //nameSort function from Lab 7
 function attemptOne() {
-    var userName = window.prompt("May I steal your username for a moment?");
-    console.log("userName =", userName);
+    console.log("click");
+    //var userName = window.prompt("May I steal your username for a moment?");
+    userName = document.getElementById('user-name').value;
+    console.log("You input:", userName);
+    //console.log("userName =", userName);
     //split string to array
     var nameArray = userName.split('');
     console.log("nameArray =", nameArray);
@@ -19,10 +22,7 @@ function attemptOne() {
     var nameSorted = nameArraySort.join('');
     console.log("nameSorted =", nameSorted);
 
-    return nameSorted;
+    document.getElementById("output").innerHTML = nameSorted;
 }
 
-document.getElementById("my-button").addEventListener("click", attemptOne() {
-         inputValue = document.getElementById('user-name').value;
-         console.log("You input:", inputValue);
-});
+document.getElementById("my-button").addEventListener("click", attemptOne);
