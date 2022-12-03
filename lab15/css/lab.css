@@ -4,12 +4,14 @@ body {
 
 div {
     background-color: #fff9e9;
+    border-style: solid;
     border-radius: 2=15px;
     border-color: #3f320b;
 }
 
 #output {
     background-color: white;
+    border-style: solid;
     border-radius: 15px;
     border-color: #3f320b;
 }
