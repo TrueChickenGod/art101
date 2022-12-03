@@ -39,9 +39,5 @@
       } else {
           console.log(loop);
       }
+      $("#output").html();
   }
-
-//oneLongString += num + " Fizz!<br>";
-
-
-//this will put the loop into the Output div
